@@ -1,36 +1,32 @@
 # 🧾 InScripts React Internship Assignment – Spreadsheet UI Clone
 
-This project is a **static, front-end-only React prototype** that visually matches the provided Figma screenshot of a spreadsheet interface.  
-It simulates a mini-Excel/Google Sheets experience as per the assignment requirements using **React, TypeScript, and Tailwind CSS**.
+This project is a **static, front-end-only React prototype** that visually replicates the given Figma design of a spreadsheet UI.  
+The goal was to simulate a clean and responsive mini spreadsheet-like UI similar to Google Sheets using **React**, **TypeScript**, and **Tailwind CSS**.
 
 ---
 
 ## 📌 Assignment Overview
 
 > **Goal:**  
-Create a pixel-perfect, static React implementation of the spreadsheet view UI as per the design shared in the Figma file.
+Build a pixel-perfect static spreadsheet view in React that matches the provided Figma screenshot.
 
 > **Tech Stack Used:**
-- React 18 (with Vite)
+- React 18 (via Vite)
 - TypeScript (strict mode)
-- Tailwind CSS for styling
-- React Icons
-- No backend or state management library used
-- Minimal custom logic, focused on layout and styling fidelity
+- Tailwind CSS for utility-first styling
+- React Icons for UI elements
+- Minimal state management (local state only)
 
 ---
 
-## 🎓 What I Learned
+## 🎓 Learnings & Skills Improved
 
-During this project, I significantly improved my **frontend development skills**, especially:
-
-- Tailwind CSS utility-first styling for pixel-perfect layouts
-- Creating reusable components in React (e.g., Badge, Header, Toolbar)
-- JSX + TypeScript strict mode usage
-- Flexbox/Grid layouts with Tailwind
-- Clean folder structuring for scale
-- Git + GitHub CLI usage
-- Running TypeScript checks & linting with ESLint
+- Responsive UI layout with Tailwind CSS  
+- JSX with TypeScript in strict mode  
+- Reusable functional components (Toolbar, Sidebar, Header, Badges)  
+- Git/GitHub workflow + live deployment  
+- ESLint + Prettier setup with TypeScript checks  
+- Design-to-code pixel-matching from Figma  
 
 ---
 
@@ -47,13 +43,16 @@ inscripts-assignment/
 │ │ ├── CellBadge.tsx
 │ ├── types/
 │ │ └── table.ts
+│ ├── assets/
+│ │ └── react.svg
 │ ├── App.tsx
 │ ├── main.tsx
 ├── tailwind.config.ts
 ├── tsconfig.json
 ├── vite.config.ts
 ├── package.json
-└── README.md ← You are here
+├── index.html
+└── README.md
 
 yaml
 Copy
@@ -61,41 +60,64 @@ Edit
 
 ---
 
-## 📸 Screenshots
+## 🚀 Live Demo
 
-> _Screenshots will be added here once provided._
+🟢 **Hosted URL**:  
+🔗 [https://inscripts-assignment-murex.vercel.app](https://inscripts-assignment-murex.vercel.app)
 
 ---
 
-## 🚀 Getting Started
+## 📸 Screenshot
 
-To run locally:
+> 📷 Spreadsheet UI – Final Output  
+> _(Matches Figma pixel-perfectly with functional components and console-logged actions)_
+
+![Spreadsheet Screenshot](./assets/screenshot.png)
+
+> 📌 *Place your screenshot as `screenshot.png` inside `src/assets` and update the path if needed.*
+
+---
+
+## 🧰 Getting Started (Local Setup)
 
 ```bash
-# clone the repo
+# Clone the repository
 git clone https://github.com/your-username/inscripts-assignment.git
 
+# Navigate to the project folder
 cd inscripts-assignment
 
-# install dependencies
+# Install dependencies
 npm install
 
-# run development server
+# Run the dev server
 npm run dev
 
-# lint check
+# Lint check
 npm run lint
 
-# type check
+# TypeScript check
 npm run type-check
-📦 Deployment
-This project is hosted live at: https://your-live-url.com
-(Replace this with your deployed URL from Vercel/Netlify)
+🧪 Acceptance Criteria Checklist
+ Pixel-perfect layout matching Figma
 
-🪪 License
-This project is licensed under the MIT License.
+ Sort, Filter, Cell View, Toolbar, and Sheet Tabs
+
+ No dead UI – All buttons log to console
+
+ Clean folder structure
+
+ Lint + Type Check passed
+
+ Live hosted URL on Vercel
+
+ Readable commit history
+```
+
+📄 License
+This project is open source under the MIT License.
 See the LICENSE file for details.
 
-🙌 Acknowledgments
-Thanks to InScripts for this exciting internship challenge.
-Design inspired by their internal product UI.
+🙌 Acknowledgment
+Thanks to InScripts for the opportunity and this amazing React UI challenge!
+Design reference was taken from the shared Figma.
