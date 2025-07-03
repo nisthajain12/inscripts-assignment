@@ -32,6 +32,8 @@ Build a pixel-perfect static spreadsheet view in React that matches the provided
 
 ## 📁 Folder Structure
 
+```bash
+
 inscripts-assignment/
 ├── public/
 ├── src/
@@ -54,9 +56,8 @@ inscripts-assignment/
 ├── index.html
 └── README.md
 
-yaml
-Copy
-Edit
+
+```
 
 ---
 
@@ -72,7 +73,7 @@ Edit
 > 📷 Spreadsheet UI – Final Output  
 > _(Matches Figma pixel-perfectly with functional components and console-logged actions)_
 
-![Spreadsheet Screenshot](./src/assets/screenshot.jpg)
+![Spreadsheet Screenshot](./src/assets/Screenshot.jpg)
 
 
 ---
@@ -81,7 +82,7 @@ Edit
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/inscripts-assignment.git
+git clone https://github.com/nisthajain12/inscripts-assignment.git
 
 # Navigate to the project folder
 cd inscripts-assignment
@@ -97,7 +98,9 @@ npm run lint
 
 # TypeScript check
 npm run type-check
-🧪 Acceptance Criteria Checklist
+```
+
+## 🧪 Acceptance Criteria Checklist
  Pixel-perfect layout matching Figma
 
  Sort, Filter, Cell View, Toolbar, and Sheet Tabs
@@ -111,12 +114,31 @@ npm run type-check
  Live hosted URL on Vercel
 
  Readable commit history
-```
 
-📄 License
+## 🧾 Citations
+✨ Design Source:
+Figma UI reference provided by InScripts
+Figma Link
+
+## 📦 Libraries Used:
+```
+React
+
+TypeScript
+
+Tailwind CSS
+
+React Icons
+```
+## 🧑‍💻 Author
+👩‍💻 Nistha Jain
+
+Frontend Developer · React Enthusiast · 2025 Engineering Student
+
+## 📄 License
 This project is open source under the MIT License.
 See the LICENSE file for details.
 
-🙌 Acknowledgment
+## 🙌 Acknowledgment
 Thanks to InScripts for the opportunity and this amazing React UI challenge!
 Design reference was taken from the shared Figma.
