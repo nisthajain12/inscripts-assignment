@@ -72,9 +72,8 @@ Edit
 > 📷 Spreadsheet UI – Final Output  
 > _(Matches Figma pixel-perfectly with functional components and console-logged actions)_
 
-![Spreadsheet Screenshot](./assets/screenshot.png)
+![Spreadsheet Screenshot](./src/assets/screenshot.jpg)
 
-> 📌 *Place your screenshot as `screenshot.png` inside `src/assets` and update the path if needed.*
 
 ---
 
