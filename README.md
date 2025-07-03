@@ -1,69 +1,101 @@
-# React + TypeScript + Vite
+# 🧾 InScripts React Internship Assignment – Spreadsheet UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **static, front-end-only React prototype** that visually matches the provided Figma screenshot of a spreadsheet interface.  
+It simulates a mini-Excel/Google Sheets experience as per the assignment requirements using **React, TypeScript, and Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Assignment Overview
 
-## Expanding the ESLint configuration
+> **Goal:**  
+Create a pixel-perfect, static React implementation of the spreadsheet view UI as per the design shared in the Figma file.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> **Tech Stack Used:**
+- React 18 (with Vite)
+- TypeScript (strict mode)
+- Tailwind CSS for styling
+- React Icons
+- No backend or state management library used
+- Minimal custom logic, focused on layout and styling fidelity
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🎓 What I Learned
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+During this project, I significantly improved my **frontend development skills**, especially:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Tailwind CSS utility-first styling for pixel-perfect layouts
+- Creating reusable components in React (e.g., Badge, Header, Toolbar)
+- JSX + TypeScript strict mode usage
+- Flexbox/Grid layouts with Tailwind
+- Clean folder structuring for scale
+- Git + GitHub CLI usage
+- Running TypeScript checks & linting with ESLint
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📁 Folder Structure
+
+inscripts-assignment/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Header.tsx
+│ │ ├── Toolbar.tsx
+│ │ ├── Sidebar.tsx
+│ │ ├── Spreadsheet.tsx
+│ │ ├── CellBadge.tsx
+│ ├── types/
+│ │ └── table.ts
+│ ├── App.tsx
+│ ├── main.tsx
+├── tailwind.config.ts
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+└── README.md ← You are here
+
+yaml
+Copy
+Edit
+
+---
+
+## 📸 Screenshots
+
+> _Screenshots will be added here once provided._
+
+---
+
+## 🚀 Getting Started
+
+To run locally:
+
+```bash
+# clone the repo
+git clone https://github.com/your-username/inscripts-assignment.git
+
+cd inscripts-assignment
+
+# install dependencies
+npm install
+
+# run development server
+npm run dev
+
+# lint check
+npm run lint
+
+# type check
+npm run type-check
+📦 Deployment
+This project is hosted live at: https://your-live-url.com
+(Replace this with your deployed URL from Vercel/Netlify)
+
+🪪 License
+This project is licensed under the MIT License.
+See the LICENSE file for details.
+
+🙌 Acknowledgments
+Thanks to InScripts for this exciting internship challenge.
+Design inspired by their internal product UI.
